@@ -1,2 +1,9 @@
 # Jailbreak_ios9
 Jailbreak for ios 9.3.0~9.3.3
+
+1. Open Safari of your iPhone
+2. Visit [jailbreak.xege.org/break](http://jailbreak.xege.org/break)
+3. Click `go`, and lock your screen. Wait about 20s
+4. If you can't see the alert box, flush the browser and go to step 3.
+5. If you see the alert box, click `close`, and lock your screen.
+6. Waiting... You device will restart automatically and the Jailbreak is done!

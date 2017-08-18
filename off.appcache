@@ -1,7 +1,7 @@
 CACHE MANIFEST
 # v4
 index.html
-https://jbme.qwertyoruiop.com/loader
-https://jbme.qwertyoruiop.com/exec
-https://jbme.qwertyoruiop.com/touch-icon-iphone.png
-http://breakios.xege.org/break/off.appcache
+loader
+exec
+touch-icon-iphone.png
+off.appcache
